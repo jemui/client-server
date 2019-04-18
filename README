@@ -1,0 +1,30 @@
+Jeanette Mui, jemui@ucsc.edu
+Asg4: Client Server
+
+A client communicates with a server for transfering, getting, putting, removing, and listing  files. 
+
+Usage for daemon: 
+cd remote:
+../cixd 8888 
+
+Usage for client:
+cix localhost 8888
+
+Commands for cient: 
+ls
+put localfile
+get server1file
+rm to-remove
+
+Starter code provided by Wesley Mackey.
+
+Files Submitted (9):
+cix.cpp (edited)
+cixd.cpp (edited)
+logstream.h
+Makefile
+protocol.cpp
+protocol.h
+README
+sockets.cpp
+sockets.h
